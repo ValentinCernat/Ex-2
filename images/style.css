@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0 auto;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: brown;
+    overflow-x: hidden;
+    
+}
+
+
+
+.test{
+    width: 100%;
+}
+
+
+.textme{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+.textc{
+    color: grey;
+}
+
+.textcc{
+    color: white;
+}
+
+
+.textp{
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.texts{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.row::after {
+      content: "";
+      clear: both;
+      display: table;
+}
+
+.about{
+    background-color: rgba(128, 49, 255, 0.719);
+    max-width: 100% auto;
+    min-height: 300px;
+    text-align: center;
+
+}
+    
+
+.myskills{
+    min-height: 700px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.text{
+    position: relative;
+    top: 100px;
+}
+
+.title{
+    color: white;
+    font-size: 60px;
+}
+
+.col-l{
+    background-color: rgb(197, 87, 87);
+    float: left;
+    min-height: 700px;
+}
+
+.col-r{
+    background-color: rgb(218, 197, 10);
+    float: left;
+    min-height: 700px;
+}
+.col-rr{    
+    float: left;
+    min-height: 700px;
+    /* background-color: rgba(128, 49, 255, 0.719); */
+}
+
+.color1{
+    background-color: rgba(128, 49, 255, 0.719);
+}
+
+.coll{
+    float: left;
+    min-height: 250px;
+    
+}
+
+.img{
+    position: relative;
+    top: 200px;
+    left: -175px;
+    width: 550px;
+    height: 350px;
+}
+
+.getto{
+    /* max-width: 100% auto; */
+    display: block;
+    position: relative;
+    top: -200px;
+    left: 600px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+li{
+    float: left;
+    position: relative;
+    left: -10px;
+}
+
+.social{
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+
+.practice{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.practiceb{
+    position: relative;
+    top: 100px;
+    left: -100px;
+}
+
+.practicebot{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    padding-bottom: 150px;
+        
+}
+
+.practicetext{
+    margin: 0 auto;
+}
+
+.h{
+    float: left;
+    width: 310px;
+}
+
+
+.col{
+    background-color:rgb(248, 248, 248);
+    float: left;
+    min-height: 250px;
+    /* border: solid 1px black; */
+       
+}
+
+.color{
+    background-color: rgb(248, 248, 248);
+    height: 700px;
+}
+
+
+.bot{
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.offset-1 {margin-left: 8.33%;}
+.offset-2 {margin-left: 16.66%;}
+.offset-3 {margin-left: 25%;}
+.offset-4 {margin-left: 33.33%;}
+.offset-5 {margin-left: 41.66%;}
+.offset-6 {margin-left: 50%;}
+.offset-7 {margin-left: 58.33%;}
+.offset-8 {margin-left: 66.66%;}
+.offset-9 {margin-left: 75%;}
+.offset-10 {margin-left: 83.33%;}
+.offset-11 {margin-left: 91.66%;}
+.offset-12 {margin-left: 100%;}
+
+@media only screen and (max-width:800px)  {
+    .col{
+      margin-left: 0;
+    }
+    .hide-on-mobile{
+      display: none;
+    }
+
+    .myskills{
+        position: relative;
+        left: 0px;
+        top: 30px;
+        text-align: center;
+    }
+
+    .practice{
+        position: relative;
+        left: 0px;
+        top: 10px;
+        text-align: center;
+    }
+
+    .practicebot{
+        position: relative;
+        left: 0px;
+        top: 10px;
+        text-align: center;
+    }
+
+    .h{
+        float: none;
+        width: auto;
+    }
+
+    .getto{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+    }
+
+    ul{
+        display:inline-flex;
+        place-items: center;
+    }
+    li{
+        position: relative;
+        left: 0px;
+       
+    }
+
+    .bot{
+        position: relative;
+        top: 0pxs;
+        left: 0px;
+    }
+
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+  }
+
+  @media only screen and (max-width:600px)  {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
